@@ -14,6 +14,9 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Dolorem laboriosam asperiores nihil iste nemo reiciendis</strong>s, architecto impedit vero perspiciatis tempore recusandae<em> a error doloremque? </em>Eligendi nihil ducimus culpa facere officia?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem laboriosam asperiores nihil iste nemo reiciendis, architecto impedit vero perspiciatis tempore recusandae a error doloremque? Eligendi nihil ducimus culpa facere officia?</p>
         <br>
+        <hr>
+        <br>
+        <!--List-->
         <ol>
             <li>These are numbered</li>
             <li>Ol list is numbered, ul list is dotted</li>
@@ -21,7 +24,9 @@
         <ul>
             <li>Dotted</li>
         </ul>
-
+<br>
+<hr>
+<br>
         <!--Tables-->
         <table>
             <thead>
@@ -44,8 +49,57 @@
                 </tr>
             </tbody>
         </table>
-
-
-        <img="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png">
+        <!--Form-->
+        <br>
+        <hr>
+        <br>
+        <form action="process.js" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="FirstName" placeholder="First Name"> 
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="LastName" placeholder="Last Name"> 
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Email">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message">
+                </textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                    <select name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+            </div>
+            <br>
+            <div>
+                <label>Age</label>
+                <input type="number" name="age" value="0">
+            </div>
+            <br>
+            <div>
+                <label>Birthday</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+            <br>
+            <hr>
+        <!--Button-->
+        <button>Click me</button>
+        <div style="margin-top:100px;"
     </body>
 </html>

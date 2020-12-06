@@ -118,7 +118,7 @@ p{
     color:black;
 }
 
-.submit1 {
+.submit1, .button{
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;

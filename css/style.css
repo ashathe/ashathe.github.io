@@ -11,6 +11,7 @@
 
 #te{
     color:red;
+    background-color: violet;
 }
 
 body{
@@ -28,4 +29,11 @@ p{
     color:white;
     font: normal medium 'IBM Plex Sans', sans-serif;
     line-height: 1.2em;
+}
+.box-1{
+    background-color: teal;
+}
+.container{
+    width:80%;
+    margin: auto;
 }

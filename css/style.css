@@ -47,12 +47,11 @@ p{
 }
 .box-1{
     background-color: teal;
+    margin:auto;
     border-right:5px red solid;
     border-right-width:  10px;
-    /* use below to create a border all around it
-    border: 5px red dotted
-    */
     padding-top: 20px;
+    overflow: hidden;
 } 
 .container{
     width:80%;
@@ -70,6 +69,7 @@ p{
     border:3px dotted lightgray;
     padding:20px;
     margin:20px 0;
+    overflow: hidden;
 }
 .menu{
     border:1px lightgray solid;

@@ -20,45 +20,44 @@
             </ul>
         </div>
         <br>
-        <form action="process.js" method="POST">
-            <div>
+        <form class="myform" action="process.js" method="POST">
+            <div class="form-group">
                 <label>First Name</label>
                 <input type="text" name="FirstName" placeholder="First Name"> 
             </div>
             <br>
-            <div>
+            <div class="form-group">
                 <label>Last Name</label>
                 <input type="text" name="LastName" placeholder="Last Name"> 
             </div>
             <br>
-            <div>
+            <div class="form-group">
                 <label>Email</label>
                 <input type="email" name="email" placeholder="Email">
             </div>
             <br>
-            <div>
-                <label>Message</label>
-                <textarea name="message">
-                </textarea>
-            </div>
-            <br>
-            <div>
+            <div class="form-group">
                 <label>Gender</label>
                     <select name="gender">
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                        <option value="other">Other</option>
+                        <option class="optioncolor" value="male">Male</option>
+                        <option class="optioncolor" value="female">Female</option>
+                        <option class="optioncolor" value="other">Other</option>
                     </select>
             </div>
             <br>
-            <div>
+            <div class="form-group">
                 <label>Age</label>
                 <input type="number" name="age" value="0">
             </div>
             <br>
-            <div>
+            <div class="form-group">
                 <label>Birthday</label>
                 <input type="date" name="birthday">
+            </div>
+            <br>
+            <div class="form-group">
+                <label>Message</label>
+                <textarea placeholder="Message" rows="5" cols="30" name="message" style="resize:none"></textarea>
             </div>
             <br>
             <input class="submit1" type="submit" name="submit" value="Submit">

@@ -1,0 +1,17 @@
+.menu{
+    border:1px lightgray solid;
+    padding:10px;
+    text-align: left;
+    width: 100px;
+}
+.menu h2{
+    text-align: center;
+}
+.menu ul{
+    padding:o;
+    list-style: none;
+}
+.menu li{
+    padding-bottom: 6px ;
+    border-bottom: dotted 1px #7289da;
+}

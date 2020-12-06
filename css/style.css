@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+#main-header{
+    text-align:center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+#main-footer{
+    text-align: center;
+}
+
+#te{
+    color:red;
+}
+
+body{
+    background-color: #2c2f33;
+
+}
+a{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: medium;
+    font-weight: normal;
+    color:#7289da;
+}
+/*these 2 font styles do the same thing */
+p{
+    color:white;
+    font: normal medium 'IBM Plex Sans', sans-serif;
+    line-height: 1.2em;
+}

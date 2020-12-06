@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
-#main-header{
-    text-align:center;
-    background-color: black;
-    color: white;
-    padding: 10px;
+*{
+    margin: 0;
+    padding: 0;
+    color:white;
+    font:'IBM Plex Sans', sans-serif;
+    line-height: 1.2em;
 }
 #main-footer{
     text-align: center;
@@ -23,6 +24,17 @@ a{
     font-size: medium;
     font-weight: normal;
     color:#7289da;
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+    font-style: italic;
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color:#7289da;
 }
 /*these 2 font styles do the same thing */
 p{
@@ -32,8 +44,44 @@ p{
 }
 .box-1{
     background-color: teal;
-}
+    border-right:5px red solid;
+    border-right-width:  10px;
+    /* use below to create a border all around it
+    border: 5px red dotted
+    */
+    padding-top: 20px;
+} 
 .container{
     width:80%;
     margin: auto;
+    margin-top: 20px;
+}
+.box-1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.box-2{
+    border:3px dotted lightgray;
+    padding:20px;
+    margin:20px 0;
+}
+.menu{
+    border:1px lightgray solid;
+    padding:10px;
+    text-align: left;
+    width: 100px;
+}
+.menu h2{
+    text-align: center;
+}
+.menu ul{
+    padding:o;
+    list-style: none;
+}
+.menu li{
+    padding-bottom: 6px ;
+    border-bottom: dotted 1px #7289da;
 }

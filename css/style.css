@@ -54,8 +54,8 @@ p{
     overflow: hidden;
 } 
 .container{
-    width:80%;
-    margin: auto;
+    min-width:20%;
+    margin-left:;
     margin-top: 20px;
 }
 .box-1 h2{
@@ -131,16 +131,23 @@ p{
   }
 
 .block{
-    float:left;
-    width:300px;
+  float: left;
+    width:33.3%;
+    border: 1px solid turquoise;
+    padding:10px;
+    margin-top: 10px;
+    box-sizing: border-box;
 }
 .goals{
       float:left;
       border: 2px solid #7289da;
       border-radius: 5px;
       padding-left: 20px;
-      width: 400px;
-      margin-top:20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  min-width: 50%;
+  max-width: 30%;
+  height: 50%;
   }
   .icons{
       margin-top:10px;
@@ -154,4 +161,40 @@ p{
 }
 .greet{
     margin-left:20px;
+}
+#sidebar{
+  float: right;
+  margin: 2px;
+  margin-top: 10px;
+  border: 1px solid royalblue;
+  width: 150px;
+}
+#sidebar p{
+  padding:5px;
+}
+#sidebar h3{
+  text-align: center;
+}
+#goalsbar{
+  float: left;
+  margin: 2px;
+  margin-left:20px;
+  margin-top: 20px;
+  border: 1px solid royalblue;
+  width: 150px;
+}
+#goalsbar p{
+  padding:5px;
+}
+#goalsbar h3{
+  text-align: center;
+}
+#goalsbar ul{
+  padding-left:  20px;
+}
+#goalsbar li{
+  padding:5px;
+}
+.block3{
+  padding-top: 10px;
 }
